@@ -1,0 +1,14 @@
+{
+  "name": "exchange-rates",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Dima-F",
+  "license": "ISC",
+  "scripts": {
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1"
+  }
+}
