@@ -5,10 +5,18 @@
   "author": "Dima-F",
   "license": "ISC",
   "scripts": {
+    "start": "electron ./app",
+    "build-electron": "electron-packager --overwrite ./build ER"
   },
   "devDependencies": {
     "electron": "^1.7.5",
+    "electron-packager": "^9.0.0",
+    "fs-jetpack": "^1.2.0",
     "gulp": "^3.9.1",
-    "gulp-run": "^1.7.1"
+    "gulp-asar": "^1.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-run": "^1.7.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28"
   }
 }
